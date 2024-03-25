@@ -1,4 +1,7 @@
-#!/usr/bin/env bash
-# This script configure SSH configuration file to our needs
-PasswordAuthentication no
-IdentityFile ~/.ssh/school
+# SSH Config File
+#
+Host web-01
+	Hostname 52.3.244.103
+	User ubuntu
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
